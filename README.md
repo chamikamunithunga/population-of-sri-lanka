@@ -20,4 +20,7 @@ Finally, the program displays the calculated net salary.
 
 2#
 
+![sri-lanka-army-soldiers-1](https://github.com/user-attachments/assets/fcc005c7-2573-4008-a15f-ac8acd8c4a9c)
+
+
 program that analyzes the count of active military forces in Sri Lanka, we can use an API or predefined data source that provides information on the military and security forces. For this example, I will assume we can use hypothetical API endpoints that provide this data.
