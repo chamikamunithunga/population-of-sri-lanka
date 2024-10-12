@@ -17,3 +17,7 @@ Overtime hours < 10: No allowance.
 The net salary is calculated as: Net Salary = Basic Salary + Allowance.
 
 Finally, the program displays the calculated net salary.
+
+2#
+
+program that analyzes the count of active military forces in Sri Lanka, we can use an API or predefined data source that provides information on the military and security forces. For this example, I will assume we can use hypothetical API endpoints that provide this data.
