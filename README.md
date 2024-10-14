@@ -4,6 +4,11 @@
 
 # Sri Lanka Population Data Application
 
+![Screenshot 2024-10-14 at 5 50 23 PM](https://github.com/user-attachments/assets/287713e9-e15a-464a-b652-a63546529840)
+
+![Screenshot 2024-10-14 at 5 53 47 PM](https://github.com/user-attachments/assets/1ccf5027-4ef4-4f8a-acb7-535102e8b1d2)
+
+
 This application provides population statistics for Sri Lanka, allowing users to query the number of people above and below 18 years of age.
 
 ## Table of Contents
