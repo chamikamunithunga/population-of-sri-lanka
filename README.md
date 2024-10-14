@@ -1,5 +1,39 @@
 #population of sri lanka 
 -------------------------
+
+
+# Sri Lanka Population Data Application
+
+This application provides population statistics for Sri Lanka, allowing users to query the number of people above and below 18 years of age.
+
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+
+## Features
+
+- Displays the total population of Sri Lanka.
+- Provides data on the number of individuals above and below 18 years of age.
+
+## Technologies Used
+
+- **Python**: The programming language used for backend development.
+- **Flask**: A lightweight WSGI web application framework for Python.
+- **HTML/CSS**: For front-end development and styling.
+
+## Installation
+
+Follow these steps to set up the project locally:
+
+1. **Clone the repository** (if you haven't already):
+   ```bash
+   git clone <repository-url>
+   cd <repository-folder>
+
 Explanation:
 -------------
 The program prompts the user to enter the basic salary and the number of overtime hours.
