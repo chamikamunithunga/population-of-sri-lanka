@@ -30,14 +30,7 @@ This application provides population statistics for Sri Lanka, allowing users to
 - **Flask**: A lightweight WSGI web application framework for Python.
 - **HTML/CSS**: For front-end development and styling.
 
-## Installation
 
-Follow these steps to set up the project locally:
-
-1. **Clone the repository** (if you haven't already):
-   ```bash
-   git clone <repository-url>
-   cd <repository-folder>
 
 Explanation:
 -------------
