@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Lanka Population Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; 
+            padding: 0; 
+            height: 100vh; 
+            background-image: url('https://i.redd.it/gb4a4p14cmw41.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            overflow: hidden;
+            color: white; 
+            background-color: black;
+        }
+        .container {
+            max-width: 800px;
+            margin: 100px auto; 
+            background-color: #00000080; 
+            padding: 20px;
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            text-align: center;
+            margin-bottom: 10px;
+            margin-top: 50px;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #000000;
+            color: #ff0000;
+            border: none;
+            cursor: pointer;
+            font-size: larger;
+        }
+        input[type="submit"]:hover {
+            background-color: #afaf05;
+            color: #000000;
+        }
+        .result {
+            text-align: center;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sri Lanka Population Data</h1>
+        <form action="/population" method="POST">
+            <label>Select Population Age Group:</label><br>
+            <input type="radio" id="over_18" name="age_group" value="over_18">
+            <label for="over_18">Over 18</label><br>
+            <input type="radio" id="below_18" name="age_group" value="below_18">
+            <label for="below_18">Below 18</label><br><br>
+            <input type="submit" value="Get Population Data">
+        </form>
+
+        {% if total_population %}
+        <div class="result">
+            <p>Population {{ age_group.replace('_', ' ') }} years in Sri Lanka (2023-2024)</p>
+            <p>Total Population: {{ total_population }}</p>
+            <p>Percentage of Total Population: {{ percentage }}%</p>
+        </div>
+        {% endif %}
+
+        {% if error %}
+        <div class="result">
+            <p style="color: red;">{{ error }}</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
