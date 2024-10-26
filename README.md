@@ -3,8 +3,6 @@
 
 
 
-
-
 # Sri Lanka Population Data Application
 
 ![Screenshot 2024-10-14 at 5 50 23 PM](https://github.com/user-attachments/assets/287713e9-e15a-464a-b652-a63546529840)
